@@ -1,0 +1,232 @@
+{
+    "Hotels": [{
+            "id": 2,
+            "hotelName": "Hotel Mynk",
+            "description": "The Best dsdsd",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "price": "102",
+            "rating": 4.5,
+            "tags": [
+                null
+            ],
+            "categoryId": 1,
+            "menu": [2, 3]
+        },
+        {
+            "id": 3,
+            "hotelName": "Hotel FOF",
+            "description": "The Best Farah",
+            "imageUrl": "assets/images/Hot2.jpg",
+            "price": 9685,
+            "rating": 5,
+            "tags": [
+                "etiquétte 12",
+                "Tnakat-12"
+            ],
+            "categoryId": 1,
+            "menu": [1, 2, 3]
+        },
+        {
+            "id": 4,
+            "description": "jhjhjhj",
+            "hotelName": "hjhj",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "rating": 1,
+            "price": "054654",
+            "tags": [
+                "nouveau"
+            ],
+            "categoryId": 2,
+            "menu": [1, 2, 3]
+
+        },
+        {
+            "id": 5,
+            "description": "this is rhamna hotel",
+            "hotelName": "Hotel mami",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "rating": "5",
+            "price": "652",
+            "tags": [],
+            "categoryId": 2
+        },
+        {
+            "id": 6,
+            "description": "description hotel benyghil",
+            "hotelName": "Hotel benyghil",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "rating": "2",
+            "price": "202",
+            "tags": [
+                null,
+                null
+            ],
+            "categoryId": 3,
+            "menu": [1, 2, 3]
+        },
+        {
+            "id": 7,
+            "description": "mamia hotel high quality",
+            "hotelName": "Hotel mamaia",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "rating": 1,
+            "price": "25.25",
+            "tags": [
+                "aloni"
+            ],
+            "categoryId": 1
+        },
+        {
+            "id": 8,
+            "description": "sdds sdsddsds",
+            "hotelName": "sddddd",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "rating": 1,
+            "price": "96",
+            "tags": [],
+            "categoryId": 0,
+            "categoryName": ""
+        },
+        {
+            "id": 9,
+            "description": "test",
+            "hotelName": "test2",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "rating": "5",
+            "price": "558",
+            "tags": [],
+            "categoryId": 0,
+            "categoryName": ""
+        },
+        {
+            "id": 10,
+            "description": "test",
+            "hotelName": "test555",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "rating": "5",
+            "price": "58",
+            "tags": [
+                "test"
+            ],
+            "categoryId": 0,
+            "categoryName": ""
+        },
+        {
+            "id": 11,
+            "description": "teest",
+            "hotelName": "tttest",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "rating": 1,
+            "price": "5",
+            "tags": [],
+            "categoryId": 0,
+            "categoryName": "",
+            "menu": [1, 2, 3]
+        },
+        {
+            "id": 12,
+            "description": "aloooni",
+            "hotelName": "alonyin",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "rating": 1,
+            "price": "96",
+            "tags": [],
+            "categoryId": 0,
+            "categoryName": "",
+            "menu": [1, 2, 3]
+        },
+        {
+            "id": 13,
+            "description": "ananana",
+            "hotelName": "anana",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "rating": "5",
+            "price": "5",
+            "tags": [
+                "tickt1"
+            ],
+            "categoryId": 0,
+            "categoryName": "",
+            "menu": [1, 2, 3]
+        },
+        {
+            "id": 14,
+            "description": "kindiro",
+            "hotelName": "kindir",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "rating": 1,
+            "price": 0,
+            "tags": [],
+            "categoryId": 0,
+            "categoryName": ""
+        },
+        {
+            "id": 15,
+            "description": "moniiiid",
+            "hotelName": "moni",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "rating": "5",
+            "price": "5",
+            "tags": [],
+            "categoryId": 0,
+            "categoryName": ""
+        },
+        {
+            "id": 16,
+            "description": "sssssssssssssss",
+            "hotelName": "ssssss",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "rating": 1,
+            "price": "45",
+            "tags": [],
+            "categoryId": 0,
+            "categoryName": ""
+        },
+        {
+            "id": 17,
+            "description": "shiiit ",
+            "hotelName": "sadboy",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "rating": "4",
+            "price": "985",
+            "tags": [],
+            "categoryId": 0,
+            "categoryName": ""
+        },
+        {
+            "id": 18,
+            "description": "Nice",
+            "hotelName": "Hotel Benygh",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "rating": "5",
+            "price": "256",
+            "tags": [],
+            "categoryId": 0,
+            "categoryName": ""
+        },
+        {
+            "id": 19,
+            "description": "yess test",
+            "hotelName": "test58",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "rating": 1,
+            "price": 0,
+            "tags": [],
+            "categoryId": 0,
+            "categoryName": ""
+        },
+        {
+            "id": 20,
+            "description": "amaz description",
+            "hotelName": "Greate things",
+            "imageUrl": "assets/images/Hot3.jpg",
+            "rating": 1,
+            "price": "20",
+            "tags": [
+                "tap"
+            ],
+            "categoryId": 0,
+            "categoryName": ""
+        }
+    ]
+}

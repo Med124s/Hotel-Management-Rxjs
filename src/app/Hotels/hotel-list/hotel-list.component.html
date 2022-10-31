@@ -1,0 +1,52 @@
+<h2 *ngIf="(filteredHotel$|async) as hotel"> {{title}} </h2>
+<button (click)="cacher()" class="btn btn-primary">
+      <i class="fa" [class]="{'fa-eye-slash':showBadge,'fa-eye':!showBadge}" aria-hidden="true"></i>&nbsp;
+      <span>{{showBadge ? 'Cacher' : 'Afficher'}} Nouveau</span>
+</button>
+<hr>
+<div class="filterHotel">
+    <div class="row">
+        <div class="col-md-6">
+            <p>Filter Actuel :<b>{{hotelFilter}}</b></p>
+        </div>
+        <div class="col-md-6">
+            <form action="">
+                <input #filter style="width:100%" type="text" name="filter_hotel" /> <br>
+            </form>
+        </div>
+    </div>
+    <div *ngIf="!!rateStar" class="alert alert-primary" role="alert">
+        {{rateStar}}
+    </div>
+    <div *ngIf="errorMessage$|async as errorMessage " class="alert alert-danger" role="alert">
+        {{errorMessage}}
+    </div>
+</div>
+<div class="row">
+    <ng-container *ngFor="let hotel of (filteredHotel$|async)">
+        <div class="col-lg-4 col-md-6">
+            <div class="card">
+                <img class="card-img-top" style="cursor:pointer;" [title]="hotel.hotelName" [src]="hotel.imageUrl" [alt]="hotel.hotelName">
+                <div class="card-body">
+                    <h5 class="card-title">{{hotel.hotelName}} - {{hotel.categoryName}}</h5>
+                    <p class="card-text">{{hotel.description}}</p>
+                    <p class="card-text d-flex justify-content-between">
+                        {{hotel.price | currency:'EUR':'symbol':'1.2-2':'fr' | replaceComma}}
+                        <span [style.text-decoration]="decorator" class="text-danger ">{{hotel.ancienPrice  | currency:'EUR':'symbol':'1.2-2':'fr' | replaceComma}}</span>
+                    </p>
+                    <div class="d-flex justify-content-between align-items-baseline">
+
+                        <app-start-rating (rateSend)="alertRate($event)" [rate]="hotel.rating"></app-start-rating>
+                        <span [routerLink]="['/hotels',hotel.id,'edit']" class="material-icons bg-primary text-white p-2 rounded-circle btn">edit</span>
+                        <span [routerLink]="['/detail-hotel',hotel.id]" class="material-icons bg-info text-white p-2 rounded-circle btn">keyboard_arrow_right</span>
+                    </div>
+                    <ng-container *ngFor="let tag of hotel.tags;let i = index">
+                        <ng-container *ngIf="showBadge">
+                            <span style="cursor:pointer" [ngClass]="i % 2 ===0?'badge-primary':'badge-success'" class="badge mx-1 my-2">{{tag}}</span>
+                        </ng-container>
+                    </ng-container>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+</div>

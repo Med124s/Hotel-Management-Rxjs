@@ -1,0 +1,30 @@
+[{
+        "hotelId": 1,
+        "hotelName": "Hotel Rahma",
+        "description": "The Best Rahma",
+        "imageUrl": "assets/images/Hot1.jpg",
+        "price": 5789,
+        "rating": 3.5,
+        "tags": ["nouveau"]
+    },
+    {
+        "hotelId": 2,
+        "hotelName": "Hotel Sa3ada",
+        "description": "The Best Sa3ada",
+        "imageUrl": "assets/images/Hot3.jpg",
+        "price": 1002,
+        "rating": 4.5,
+        "tags": ["nouveau"]
+
+    },
+    {
+        "hotelId": 3,
+        "hotelName": "Hotel Farah",
+        "description": "The Best Farah",
+        "imageUrl": "assets/images/Hot2.jpg",
+        "price": 9685,
+        "rating": 5,
+        "tags": ["nouveau"]
+
+    }
+]

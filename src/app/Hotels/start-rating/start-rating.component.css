@@ -1,0 +1,12 @@
+.start-container {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.start-wrapper {
+    width: 125px;
+}
+
+.start-wrapper span {
+    width: 25px;
+}

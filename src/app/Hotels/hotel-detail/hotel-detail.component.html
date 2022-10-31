@@ -1,0 +1,40 @@
+<div class="container">
+
+    <div class="card" *ngIf="(hotel$|async) as hotel">
+        <div class="card-header bg-primary text-white ">
+            <strong>{{hotel.hotelName}} </strong>
+        </div>
+        <div class=" card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <span>Nom :</span><br>
+                            <span>Description :</span><br>
+                            <span>Prix :</span><br>
+                            <span>Note :</span><br>
+                        </div>
+                        <div class="col-sm-6">
+                            <span>{{hotel.hotelName}}</span><br>
+                            <span>{{hotel.description}}</span><br>
+                            <span>{{hotel.price |currency:'EUR':'symbol':'1.2-2':'fr' | replaceComma}}</span><br>
+                            <span>
+                                  <app-start-rating [rate]="hotel.rating"></app-start-rating>
+                            </span>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="float-right" [src]="hotel.imageUrl" [alt]="hotel.hotelName">
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <button (click)="retour()" class="btn btn-light">
+                <span class="material-icons"> arrow_back_ios </span>
+                <span>retour a la list</span>
+              </button>
+        </div>
+    </div>
+</div>

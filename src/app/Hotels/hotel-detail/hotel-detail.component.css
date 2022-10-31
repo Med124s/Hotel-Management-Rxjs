@@ -1,0 +1,10 @@
+.card-footer .btn span:first-of-type {
+    font-size: 13px;
+    position: relative;
+    top: 2px;
+}
+
+.btn-light {
+    color: green;
+    border: 1px solid green;
+}
