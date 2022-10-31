@@ -1,5 +1,30 @@
 # Hotel
 
+Project cinema management using Reactive Programing Rxjs with Json-server
+
+Screens:
+-Lists of hotel
+
+![list_hotels](https://user-images.githubusercontent.com/77217223/199056632-e90783f8-f8ef-4f9b-8a83-dd7ab3984756.JPG)
+
+-Lists of hotel
+
+![list-2](https://user-images.githubusercontent.com/77217223/199056714-72881731-813b-4235-b634-db3860426e90.JPG)
+
+-New Hotel
+
+![créer](https://user-images.githubusercontent.com/77217223/199056785-e1039ba8-9e2f-4c54-a388-e7d23fa65570.JPG)
+
+-update Hotel
+
+![modifier](https://user-images.githubusercontent.com/77217223/199056859-f20383b9-e519-4fb0-a14c-10e2abc1efb1.JPG)
+
+-Détail Hotel
+
+![détail](https://user-images.githubusercontent.com/77217223/199056921-b1bba407-ce9f-492c-8cbd-a873c26d7370.JPG)
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
 ## Development server
