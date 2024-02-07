@@ -1,6 +1,6 @@
 # Hotel
 
-Project cinema management using Reactive Programing Rxjs with Json-server
+Project Hotel management using Reactive Programing Rxjs with Json-server
 
 Screens:
 -Lists of hotel
